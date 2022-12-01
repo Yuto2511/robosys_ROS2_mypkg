@@ -8,10 +8,6 @@
   <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
-  <exec_depend>person_msgs</exec_depend>
-  
-  <exec_depend>Person</exec_depend>
-  <exec_depend>Query</exec_depend>
 
   <exec_depend>launch_ros</exec_depend>
 
