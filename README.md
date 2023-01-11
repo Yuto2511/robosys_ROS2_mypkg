@@ -2,7 +2,7 @@
 
 ![test](https://github.com/Yuto2511/robosys_ROS2_mypkg/actions/workflows/test.yml/badge.svg)
 
-千葉工業大学　未来ロボティクス学科 2022年度 ロボットシステム学の講義で作成したROS2のパッケージ
+千葉工業大学　未来ロボティクス学科 2022年度 ロボットシステム学の講義で作成したROS2のパッケージ.
 
 ## 動作確認済み環境
 
@@ -11,7 +11,7 @@
 
 ## インストール
 
-- このリポジトリをクローンしてビルドする  
+- このリポジトリをクローンしてビルドする.  
 
   ```shell
   cd ros2_ws/src
@@ -46,6 +46,11 @@ $ ros2 launch mypkg talk_listen.launch.py
 ## 説明
 
 ![rqt graph](img/rqt_graph.png)
+
+- /talker  
+  - Int16型で0.5秒おきに、+1カウントアップしその値を、/countupへ送信するノード.
+- /listener  
+  - /countupに来たメッセージをコンソールに表示するノード.
 
 
 ## ライセンス
