@@ -2,7 +2,7 @@
 
 ![test](https://github.com/Yuto2511/robosys_ROS2_mypkg/actions/workflows/test.yml/badge.svg)
 
-千葉工業大学　未来ロボティクス学科 2022年度 ロボットシステム学の講義で作成したROS2のパッケージ.
+千葉工業大学　未来ロボティクス学科 2022年度 ロボットシステム学の講義で作成したROS2のパッケージ
 
 ## 動作確認済み環境
 
@@ -25,7 +25,6 @@
 
 ## 使い方
 
-パッケージをビルドする
 
 ```shell
 $ ros2 launch mypkg talk_listen.launch.py

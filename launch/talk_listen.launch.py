@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightTest: 2023 Yamaguchi Yuto
+# SPDX-License-Indentifer: BSD-3-Clause
+
 import launch
 import launch.actions
 import launch.substitutions
